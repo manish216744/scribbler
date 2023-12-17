@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- TODO: Include Font Awesome file here -->
+    <!-- TODO: Include Google Fonts file here -->
+
+    <link rel="stylesheet" href="./styles/index.css">
+    <link href="https://fonts.googleapis.com/css?family=Montez&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body class="body">
+    <script src="./scripts/index.js" type="text/javascript"></script>
+
+    <!-- TODO: Include all your code for the header and home page here -->
+    <div class="header">
+        <div class="header-title">
+            <div class="header-heading-text">ScriBBler</div>
+            <div class="header-subheading-text">Explore, Imagine, Create</div>
+        </div>
+
+        <div class="header-btn-wrap">
+            <button id="signupBtn" class="header-btn">Sign Up</button>
+            <button id="signinBtn" class="header-btn">Sign In</button>
+        </div>
+    </div>
+
+    <div class="posts-btn-wrap">
+        <button class="posts-btn" onclick="allPostsPage()">All Posts</button>
+        <button id="createPostBtn" class="posts-btn">Create Post</button>
+    </div>
+
+    <div id="signupPopup" class="popup">
+
+        <!-- Modal content -->
+        <div class="signup-popup">
+          
+          <div class="signup-heading">
+            <div class="signup-heading-text">
+            <div class="heading-text">Get Started</div>
+            <span id="signupClose" class="close">&times;</span>
+         </div>
+
+        
+            <div class="popup-underline"></div>
+        </div>
+          <div class="signup-content">
+
+            <div class = "input-wrap">
+                <div class="input-label">Name</div>
+                <input type="text" class="input" required placeholder="Enter Your Name"></input>
+            </div>
+
+            <div class = "input-wrap">
+                <div class="input-label">Username</div>
+                <input class="input" type="text" required placeholder="Enter Your Username"></input>
+
+            </div>
+
+            <div class = "input-wrap">
+                <div class="input-label">Password</div>
+                <input class="input" type="password" required placeholder="Enter Your Password"></input>
+
+            </div>
+
+            <div class = "input-wrap">
+                <div class="input-label">Confirm Password</div>
+                <input class="input" type="password" required placeholder="Re-enter Your Password"></input>
+
+            </div>
+          </div>
+
+          <div class="signup-btn-wrap">
+          <button type="submit" id="submitSignup" class="signup-btn">Sign Up</button>
+        </div>
+        </div>
+      
+      </div>
+    
+    
+      <div id="signinPopup" class="popup">
+
+        <!-- Modal content -->
+        <div class="signup-popup">
+          
+          <div class="signup-heading">
+            <div class="signup-heading-text">
+            <div class="heading-text">Get Started</div>
+            <span id ="signinClose" class="close">&times;</span>
+         </div>
+
+        
+            <div class="popup-underline"></div>
+        </div>
+          <div class="signup-content">
+
+            <!-- <div class = "input-wrap">
+                <div class="input-label">Name</div>
+                <input class="input" placeholder="Enter Your Name"></input>
+            </div> -->
+
+            <div class = "input-wrap">
+                <div class="input-label">Username</div>
+                <input class="input" placeholder="Enter Your Username"></input>
+
+            </div>
+
+            <div class = "input-wrap">
+                <div class="input-label">Password</div>
+                <input class="input" type="password" placeholder="Enter Your Password"></input>
+
+            </div>
+
+            <!-- <div class = "input-wrap">
+                <div class="input-label">Confirm Password</div>
+                <input class="input" placeholder="Re-enter Your Password"></input>
+
+            </div> -->
+
+            <div class="signin-btn-wrap">
+                <button id="submitSignin" class="signup-btn">Sign In</button>
+              </div>
+          </div>
+
+        <div id="signupLink" class="signup-link">Not a member?&nbsp;<a href="#0">Sign Up</a></div>
+        </div>
+      
+      </div>
+
+      
+    <div id="createPostPopup" class="popup">
+
+        <!-- Modal content -->
+        <div class="signup-popup create-post-popup">
+          
+          <div class="signup-heading">
+            <div class="signup-heading-text">
+            <div class="heading-text">Pen Your Post</div>
+            <span id="createPostClose" class="close">&times;</span>
+         </div>
+
+        
+            <div class="popup-underline"></div>
+        </div>
+          <div class="signup-content">
+
+            <div class = "input-wrap">
+                <div class="input-label">Title</div>
+                <input type="text" class="input" required placeholder="Enter title of your post"></input>
+            </div>
+
+            <div class = "input-wrap">
+                <div class="input-label">Contents</div>
+                <textarea class="create-post-input" type="text" required placeholder="Enter the contents of your post"></textarea>
+
+            </div> 
+
+          </div>
+
+          <div class="signup-btn-wrap create-post-btn-wrap">
+          <button type="submit" id="submitCreatePost" class="signup-btn create-post-btn">Create</button>
+        </div>
+        </div>
+      
+      </div>
+    
+    
+    </body>
+
+</html>

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- TODO: Include Font Awesome file here -->
+    <!-- TODO: Include Google Fonts file here -->
+
+    <link rel="stylesheet" href="../styles/postslist.css">
+    <link href="https://fonts.googleapis.com/css?family=Montez&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8b1d96df53.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="body">
+    <script src="../scripts/postslist.js" type="text/javascript"></script>
+
+
+    <div class="header">
+        <div class="header-title">
+            <div class="header-heading-text">ScriBBler</div>
+            <div class="header-subheading-text">Explore, Imagine, Create</div>
+        </div>
+
+        <div class="header-btn-wrap">
+            <button id="signupBtn" class="header-btn">Sign Up</button>
+            <button id="signinBtn" class="header-btn">Sign In</button>
+        </div>
+    </div>
+
+    <!-- TODO: Include code for header here -->
+
+    <!-- ATTENTION: The HTML code for the list of posts has been given to you. You can feel free to add/delete/modify this code. You need to write the proper CSS and JavaScript code corresponding to this page so that the result looks like the screenshots given to you in the Project Statement. -->
+
+    <!-- list of all posts starts here -->
+    <div class="cards-wrap">
+
+        <!-- post 1 starts here -->
+        <div id="card-1" class="card">
+            <div class="card-username">
+                <p>Srishti Gupta</p>
+            </div>
+
+            <div class="card-content">
+                <div class="card-content-heading">
+                    <p>‘let’ me be a ‘const’(ant), not a ‘var’(iable)!</p>
+                    <span>
+                        <!-- TODO: Include Font Awesome icon for delete icon here -->
+                        <i class="fa-solid fa-trash trash-icon" onclick="showDeletePopup('card-1')"></i>
+                    </span>
+                </div>
+                <p class="card-content-details">Since JavaScript does not have any type-checking, either of these keywords can be used to declare a variable of any type (datatype) in JavaScript. Though all the three keywords are used for the same purpose, they are different.</p>
+                <span class="ellipsis">
+                    <!-- TODO: Include Font Awesome icon for horizontal ellipsis icon here -->
+                    <i onclick="PostPage()" class="fa-solid fa-ellipsis ellipsis-icon"></i>
+                </span>
+              
+            </div>
+        </div>
+        <!-- post 1 ends here -->
+
+        <!-- post 2 starts here -->
+        <div id="card-2" class="card">
+            <div class="card-username">
+                <p>Colby Fayock</p>
+            </div>
+
+            <div class="card-content">
+                <div class="card-content-heading">
+                    <p>What is linting and how can it save you time?</p>
+                    <span>
+                        <!-- TODO: Include Font Awesome icon for delete icon here -->
+                        <i class="fa-solid fa-trash trash-icon" onclick="showDeletePopup('card-2')"></i>
+                    </span>
+                </div>
+                <p class="card-content-details">One of the biggest challenges in software development is time. It’s something we can’t easily get more of, but linting can help us make the most out of the time we have.</p>
+                <span class="ellipsis">
+                    <!-- TODO: Include Font Awesome icon for horizontal ellipsis icon here -->
+                    <i onclick="PostPage()" class="fa-solid fa-ellipsis ellipsis-icon"></i>
+                </span>
+            </div>
+        </div>
+        <!-- post 2 ends here -->
+
+        <!-- post 3 starts here -->
+        <div id="card-3" class="card">
+            <div class="card-username">
+                <p>Yazeed Bzadough</p>
+            </div>
+
+            <div class="card-content">
+                <div class="card-content-heading">
+                    <p>How to Get More Views on Your Tech Blog</p>
+                    <span>
+                        <!-- TODO: Include Font Awesome icon for delete icon here -->
+                        <i class="fa-solid fa-trash trash-icon" onclick="showDeletePopup('card-3')"></i>
+                    </span>
+                </div>
+                <p class="card-content-details">If you're a developer with a Twitter account, you've already seen everyone and their cat start a blog, YouTube channel, or Patreon. We all want to become stars, or at the very least, a recognizable name in the industry.</p>
+                <span class="ellipsis">
+                    <!-- TODO: Include Font Awesome icon for horizontal ellipsis icon here -->
+                    <i onclick="PostPage()" class="fa-solid fa-ellipsis ellipsis-icon"></i>
+                </span>
+            </div>
+        </div>
+        <!-- post 3 ends here -->
+
+        <!-- post 4 starts here -->
+        <div id = "card-4" class="card">
+            <div class="card-username">
+                <p>Cedd Burge</p>
+            </div>
+
+            <div class="card-content">
+                <div class="card-content-heading">
+                    <p>How to write easily describable code</p>
+                    <span>
+                        <!-- TODO: Include Font Awesome icon for delete icon here -->
+                        <i class="fa-solid fa-trash trash-icon" onclick="showDeletePopup('card-4')"></i>
+                    </span>
+                </div>
+                <p class="card-content-details">When code is not describable using words, most people have to do some mental mapping to turn it in to words. This wastes mental energy, and you run the risk of getting the mapping wrong. Different people will map to different words, which
+                    leads to confusion when discussing the code.</p>
+                    <span class="ellipsis">
+                        <!-- TODO: Include Font Awesome icon for horizontal ellipsis icon here -->
+                        <i onclick="PostPage()" class="fa-solid fa-ellipsis ellipsis-icon"></i>
+                    </span>
+            </div>
+        </div>
+        <!-- post 4 ends here -->
+
+        <!-- post 5 starts here -->
+        <div id="card-5" class="card">
+            <div class="card-username">
+                <p>Srishti Gupta</p>
+            </div>
+
+            <div class="card-content">
+                <div  class="card-content-heading">
+                    <p>Everything you should know about ‘module’ & ‘require’ in Node.js</p>
+                    <span>
+                        <!-- TODO: Include Font Awesome icon for delete icon here -->
+                        <i class="fa-solid fa-trash trash-icon" onclick="showDeletePopup('card-5')"></i>
+                    </span>
+                </div>
+                <p class="card-content-details">Node.js treats each JavaScript file as a separate module. For instance, if you have a file containing some code and this file is named xyz.js, then this file is treated as a module in Node, and you can say that you’ve created a module
+                    named xyz.</p>
+                    <span class="ellipsis">
+                        <!-- TODO: Include Font Awesome icon for horizontal ellipsis icon here -->
+                        <i onclick="PostPage()" class="fa-solid fa-ellipsis ellipsis-icon"></i>
+                    </span>
+            </div>
+        </div>
+        <!-- post 5 ends here -->
+
+        <!-- TODO: Write code for delete post modal here -->
+
+    </div>
+    <!-- list of all posts ends here -->
+
+    <div id="deletePopup" class="popup">
+
+        <div class="delete-popup">
+            <div>Are you sure you want to delete this post?</div>
+            <div class="delete-popup-btn-wrap">
+            <button class="yes-btn" onclick="DeleteHandleYes()">Yes</button>
+            <button class="no-btn" onclick="DeleteHandleNo()">No</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

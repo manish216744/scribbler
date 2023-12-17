@@ -1,0 +1,61 @@
+.body {
+  height: 100%;
+}
+
+.header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.header-heading-text {
+  font-family: "Montez", cursive;
+  font-size: 22px;
+  color: blue;
+}
+
+.header-subheading-text {
+  font-family: "Ubuntu Mono", cursive;
+  font-size: 12px;
+}
+
+.header-btn-wrap {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.header-btn {
+  background: blue;
+  color: white;
+  border: 0px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.post-page-heading {
+  display: flex;
+  justify-content: center;
+  font-size: larger;
+  font-weight: 600;
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+.username-heading {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 20px;
+}
+
+.edit-btn {
+  background: #e93e3e;
+  border: 0px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.edit-icon {
+  color: white;
+  padding: 2px;
+}

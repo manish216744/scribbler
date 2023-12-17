@@ -1,0 +1,179 @@
+.html {
+}
+
+.body {
+  height: 100%;
+  /* width: 100%; */
+  background: url("../images/background.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.header-heading-text {
+  font-family: "Montez", cursive;
+  font-size: 22px;
+  color: blue;
+}
+
+.header-subheading-text {
+  font-family: "Ubuntu Mono", cursive;
+  font-size: 12px;
+}
+
+.header-btn-wrap {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.header-btn {
+  background: blue;
+  color: white;
+  border: 0px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.posts-btn-wrap {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 45%;
+}
+
+.posts-btn {
+  background: #eebf69;
+  border: 0px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.popup {
+  display: none;
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+  overflow: hidden;
+}
+
+.signup-popup {
+  background-color: #fefefe;
+  margin: 10% auto; /* 15% from the top and centered */
+  padding: 10px 20px;
+  border: 1px solid #888;
+  width: 25%; /* Could be more or less, depending on screen size */
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.create-post-popup{
+  width: 50%;
+}
+
+
+
+.close {
+  color: #615656;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.signup-content {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.heading-text{
+  color: #615656;
+  font-size: 20px;
+}
+
+.input-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.input{
+  height: 25px;
+  border: solid 1px;
+}
+
+.popup-underline {
+  height: 1px;
+  background-color: #000000;
+}
+
+.signup-heading-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.signup-btn-wrap{
+  padding: 10px 0px;
+  width: 100%;
+}
+
+.create-post-btn-wrap{
+  padding: 10px 0px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.signin-btn-wrap{
+  width: 100%;
+  padding-top: 5px;
+}
+
+.signup-btn{
+  width: 100%;
+  height: 30px;
+  background: limegreen;
+  border: 0px;
+  color: white;
+  cursor: pointer;
+}
+
+.create-post-btn{
+  width: 20%;
+}
+
+.signup-link{
+  display: flex;
+  justify-content: center;
+  padding: 8px 0px;
+}
+
+.create-post-input{
+  height: 150px;
+  border: solid 1px;
+}

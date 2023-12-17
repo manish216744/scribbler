@@ -1,0 +1,146 @@
+.body {
+  height: 100%;
+  background-color: #ffeedd;
+}
+
+.header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.header-heading-text {
+  font-family: "Montez", cursive;
+  font-size: 22px;
+  color: blue;
+}
+
+.header-subheading-text {
+  font-family: "Ubuntu Mono", cursive;
+  font-size: 12px;
+}
+
+.header-btn-wrap {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.header-btn {
+  background: blue;
+  color: white;
+  border: 0px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.cards-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 30px 0px;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  width: 40%;
+  margin: 20px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  transition: box-shadow 0.3s;
+}
+
+.card:hover {
+  box-shadow: 0 5px 20px rgba(33, 33, 33, 0.2);
+}
+
+.card-username {
+  background: white;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px 10px;
+}
+
+.card-content {
+  background: #d3cdcd;
+  height: 100%;
+  padding: 0px 10px;
+}
+
+.card-content-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card-content-details {
+  word-wrap: break-word;
+  overflow: hidden;
+  max-height: 3.6em;
+  line-height: 1.2em;
+}
+
+.trash-icon {
+  color: gray;
+  cursor: pointer;
+}
+
+.popup {
+    display: none;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+    overflow: hidden;
+  }
+  
+  .delete-popup {
+    background-color: #fefefe;
+    margin: 20% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 25%; /* Could be more or less, depending on screen size */
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .delete-popup-btn-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .yes-btn{
+    width:50px;
+    background:#25b025;
+    color: white;
+    border: 0px;
+    padding: 5px;
+    cursor: pointer;
+  }
+
+  .no-btn{
+    width:50px;
+    background:red;
+    color: white;
+    border: 0px;
+    padding: 5px;
+    cursor: pointer;
+  }
+
+  .ellipsis{
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .ellipsis-icon{
+   cursor: pointer;
+  }
